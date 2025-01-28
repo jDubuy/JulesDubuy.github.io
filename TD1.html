@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="TD1.css">
+ <link rel="script" href="TD1.js">
+</head>
+<body onload="afficheVille()">
+
+<header>
+<h1>TD n°1 Programmation web - Application météo</h1> 
+</header>
+
+<select id="villeSelect" onchange="afficheVille()">
+    <option value="niort">Niort</option>
+    <option value="rio">Rio de Janeiro</option>
+    <option value="rey">Reykjavik</option>
+</select>
+
+
+<div id="niort" class="ville">
+    <h2>Niort</h2>
+    <p>12°, pluvieux</p>
+    <img src="./images/pluvieux.png" width="5%"/>
+</div>
+
+<div id="rio" class="ville">
+    <h2>Rio de Janeiro</h2>
+    <p>29°, orageu</p>
+    <img src="./images/orageux.png" width="5%"/>
+</div>
+
+<div id="rey" class="ville">
+    <h2>Reykjavik</h2>
+    <p>2°, ensoleillé</p>
+    <img src="./images/ensoleille.png" width="5%"/>
+</div>
+
+</body>
+</html>
